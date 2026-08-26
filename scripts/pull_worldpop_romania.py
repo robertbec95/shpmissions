@@ -35,9 +35,12 @@ Reproduce with: `python3 scripts/pull_worldpop_romania.py`
 """
 
 import json
+import sys
 from pathlib import Path
 
-import requests
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+
+from shopping_missions.http_utils import retrying_session
 
 OUT_DIR = Path("data/location_features/worldpop")
 POP_URL = (
@@ -50,7 +53,7 @@ MANIFEST_FILE = OUT_DIR / "manifest.json"
 
 def download(url: str, dest: Path) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
-    with requests.get(url, stream=True, timeout=120) as r:
+    with retrying_session().get(url, stream=True, timeout=120) as r:
         r.raise_for_status()
         with open(dest, "wb") as f:
             for chunk in r.iter_content(chunk_size=1 << 20):

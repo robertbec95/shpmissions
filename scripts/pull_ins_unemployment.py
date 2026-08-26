@@ -16,8 +16,12 @@ Reproduce with: `python3 scripts/pull_ins_unemployment.py`
 """
 
 import json
+import sys
+from pathlib import Path
 
-import requests
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+
+from shopping_missions.http_utils import retrying_session
 
 OUT_FILE = "data/location_features/ins_unemployment_by_city.json"
 
@@ -45,7 +49,7 @@ def fetch_unemployment() -> list[dict]:
         "language": "en", "encQuery": enc_query, "matCode": "SOM101F",
         "matMaxDim": 5, "matUMSpec": 0, "matRegJ": 0,
     }
-    resp = requests.post(PIVOT_URL, json=payload, timeout=30)
+    resp = retrying_session().post(PIVOT_URL, json=payload, timeout=30)
     resp.raise_for_status()
     lines = resp.text.strip().splitlines()
     rows = lines[1:]

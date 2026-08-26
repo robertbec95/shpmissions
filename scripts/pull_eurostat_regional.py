@@ -37,8 +37,12 @@ Reproduce with: `python3 scripts/pull_eurostat_regional.py`
 """
 
 import json
+import sys
+from pathlib import Path
 
-import requests
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+
+from shopping_missions.http_utils import retrying_session
 
 OUT_FILE = "data/location_features/eurostat_gdp_per_capita.json"
 
@@ -54,7 +58,7 @@ API_URL = (
 
 
 def fetch_gdp_series() -> dict:
-    resp = requests.get(API_URL, timeout=30)
+    resp = retrying_session().get(API_URL, timeout=30)
     resp.raise_for_status()
     d = resp.json()
 
