@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.pyc
+outputs/
+.DS_Store
+.env
+.claude/
+
+# Raw POS/retailer data - large and/or proprietary, never committed.
+data/transaction_lines/
+data/products/
+data/loyalty_customers/
+data/stores/
+data/locations-export*.csv
+data/new data/
+
+# Large national geo source files - regenerable via scripts/pull_worldpop_romania.py
+# and scripts/extract_osm_poi_romania.py, not committed (311MB + 37MB).
+data/location_features/osm/*.pbf
+data/location_features/worldpop/*.tif
+
+# Everything else under data/location_features/ (feature tables, INS/Eurostat/census
+# pulls, ground truth, the extracted POI CSV - ~5.5MB total) IS tracked: these are
+# the actual hard-won research artifacts from this project, not raw/regenerable input.

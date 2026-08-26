@@ -1,0 +1,26 @@
+{
+  "dataset": "WorldPop Global2 R2025A, constrained, 100m",
+  "country": "Romania",
+  "iso3": "ROU",
+  "year": 2025,
+  "source_url": "https://data.worldpop.org/GIS/Population/Global_2015_2030/R2025A/2025/ROU/v1/100m/constrained/rou_pop_2025_CN_100m_R2025A_v1.tif",
+  "license_url": "https://hub.worldpop.org/data/licence.txt",
+  "crs": "EPSG:4326",
+  "shape_rows_cols": [
+    5576,
+    11399
+  ],
+  "resolution_deg": [
+    0.00083333333,
+    0.00083333333
+  ],
+  "bounds": [
+    20.262499198949996,
+    43.61916682819,
+    29.761665827619996,
+    48.26583347627
+  ],
+  "nodata": -99999.0,
+  "total_population_check": 18962338.0,
+  "note": "Total population check should land close to Romania's real ~19M population."
+}

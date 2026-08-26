@@ -1,0 +1,57 @@
+[
+  {
+    "city": "Bucuresti Municipality",
+    "county_id": 3104,
+    "loc_id": 3048,
+    "store_counties": [
+      "Bucharest"
+    ],
+    "year": 2025,
+    "source": "INS TEMPO-Online SOM101F",
+    "unemployment_share_pct": 0.5
+  },
+  {
+    "city": "Piatra-Neamt Municipality",
+    "county_id": 3090,
+    "loc_id": 2051,
+    "store_counties": [
+      "Neamt"
+    ],
+    "year": 2025,
+    "source": "INS TEMPO-Online SOM101F",
+    "unemployment_share_pct": 0.7
+  },
+  {
+    "city": "Calarasi Municipality",
+    "county_id": 3105,
+    "loc_id": 1544,
+    "store_counties": [
+      "Calarasi"
+    ],
+    "year": 2025,
+    "source": "INS TEMPO-Online SOM101F",
+    "unemployment_share_pct": 0.6
+  },
+  {
+    "city": "Craiova Municipality",
+    "county_id": 3079,
+    "loc_id": 1187,
+    "store_counties": [
+      "Dolj"
+    ],
+    "year": 2025,
+    "source": "INS TEMPO-Online SOM101F",
+    "unemployment_share_pct": 0.7
+  },
+  {
+    "city": "Brasov Municipality",
+    "county_id": 3071,
+    "loc_id": 674,
+    "store_counties": [
+      "Brasov"
+    ],
+    "year": 2025,
+    "source": "INS TEMPO-Online SOM101F",
+    "unemployment_share_pct": 0.4
+  }
+]

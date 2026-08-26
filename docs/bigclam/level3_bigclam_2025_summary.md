@@ -1,0 +1,99 @@
+# BigCLAM overlapping community detection (2025 data): cross-store summary
+
+6 Profi stores, full calendar-2025 purchase history each, BigCLAM (Yang & Leskovec 2013) fit on the same value-weighted PMI graph as this project's Louvain-based method, per store. Total run time 40.6s.
+
+## Overview by store
+
+| Store | Format | County | Baskets | Communities | Coverage | Overlapping categories | ARI | NMI |
+|---|---|---|---|---|---|---|---|---|
+| c917e4 | Supermarket | Bucharest | 301,311 | 7 | 89/90 | 18 | 0.469 | 0.483 |
+| c917ff | Supermarket | Neamt | 396,449 | 7 | 77/77 | 16 | 0.469 | 0.463 |
+| c91c04 | Mini Market | Calarasi | 101,155 | 7 | 69/69 | 16 | 0.627 | 0.548 |
+| c91c35 | Convenience Store | Dolj | 127,899 | 5 | 66/67 | 16 | 0.383 | 0.413 |
+| c91c43 | Convenience Store | Bucharest | 267,631 | 6 | 68/68 | 16 | 0.531 | 0.517 |
+| c91cd5 | Convenience Store | Brasov | 66,847 | 7 | 66/67 | 19 | 0.556 | 0.494 |
+
+## Full mission breakdown by store
+
+### Supermarket — Bucharest (`65587f43fae8eed7bbc917e4`)
+
+| Community | Share | Top categories (lift) |
+|---|---|---|
+| 3 | 33.17% | CARBONATED DRINKS (x2.5), SALTY SNACKS (x2.5), SWEET SNACKS (x2.7), WATER (x2.4) |
+| 4 | 23.11% | CHEESE PACKED (x3.1), FRUITS (x1.7), SUPPLIED BAKERY (x2.2), PACKED SAUSAGES (x2.5) |
+| 6 | 19.29% | VEGETABLES (x2.9), CHICKEN MEAT (x3.6), PORK (x3.7), BEER (x0.8) |
+| 2 | 12.16% | COFFEE CORNER (x7.0), BULK SAUSAGES (x4.7), OTHERS FIIGO (x2.2), COOKED MEALS (x9.6) |
+| 1 | 6.49% | COSMETICS (x7.7), HOME CARE PRODUCTS (x9.0), HOUSHOLD PAPER (x6.6), DETERGENTS / BLEACHES / FABRIC SOFTENER (x8.4) |
+| 5 | 4.51% | WINE (x9.0), SPIRIT DRINKS (x10.1), BEER (x2.9), DESSERT DRINKS (x2.2) |
+| 0 | 1.26% | PRODUSE DIN CARNE (x33.1), LACTATE (x36.4), GEMURI, DULCETURI (x41.0), PATISERIE (x34.7) |
+
+Overlapping categories: FISH (0,4,6), DESSERT DRINKS (1,4,5), CHEESE BULK (2,4,6), INTERNATIONAL CUISINE (0,6), PATISERIE (0,5), TURKEY MEAT (0,6), BABY FOOD + NONFOOD (1,5), CAR / BRICOLAGE (1,3), CLOTHING (1,5), SEASONS (1,5), SUGAR (1,4), DRESSING (2,6), CHOCOLATE (3,5), CANNED MEAT + FISH + READY MEALS (4,6), EGGS (4,6), OTHER PACKAGED PRODUCTS  FRESH (4,6), RICE / BEANS / PASTA (4,6), BEER (5,6)
+
+### Supermarket — Neamt (`65587f43fae8eed7bbc917ff`)
+
+| Community | Share | Top categories (lift) |
+|---|---|---|
+| 0 | 31.65% | TOBACCO (x1.8), SALTY SNACKS (x2.5), SWEET SNACKS (x2.4), CARBONATED DRINKS (x2.5) |
+| 3 | 20.87% | VEGETABLES (x3.9), SUPPLIED BAKERY (x2.4), FRUITS (x1.9), CANNED MEAT + FISH + READY MEALS (x3.3) |
+| 1 | 15.32% | CHICKEN MEAT (x3.3), PORK (x4.1), CHEESE PACKED (x3.4), PACKED SAUSAGES (x3.0) |
+| 6 | 10.04% | OIL, VINEGAR (x6.6), DESSERT INGREDIENTS (x7.8), MILK / CREAM (x2.6), RICE / BEANS / PASTA (x5.2) |
+| 2 | 9.67% | OTHERS FIIGO (x9.1), COFFEE CORNER (x10.9), BAKE OFF (x5.7), COOKED MEALS (x11.7) |
+| 4 | 6.57% | DESSERT DRINKS (x4.7), CHOCOLATE (x4.9), SPIRIT DRINKS (x8.1), WINE (x5.3) |
+| 5 | 5.87% | COSMETICS (x9.5), PET  FOOD (x4.9), HOUSHOLD PAPER (x7.9), HOME CARE PRODUCTS (x10.8) |
+
+Overlapping categories: FLOWERS + GARDEN ARTICLES (3,4,6), DIET PRODUCTS (0,1), HEALTH (0,5), EGGS (1,6), FISH PRODUCTS PACKED (1,3), MILK / CREAM (1,6), OTHER PACKED PRODUCTS (2,3), CANNED FRUITS (3,5), DRESSING (3,6), FROZEN READY TO COOK (3,4), FRUIT AND VEGETABLES (3,6), OTHER PACKAGED PRODUCTS  FRESH (3,6), BABY FOOD + NONFOOD (4,5), COSMETICS (4,5), SEASONS (4,5), INTERNATIONAL CUISINE (5,6)
+
+### Mini Market — Calarasi (`65587f43fae8eed7bbc91c04`)
+
+| Community | Share | Top categories (lift) |
+|---|---|---|
+| 5 | 34.96% | TOBACCO (x1.9), CARBONATED DRINKS (x2.3), SALTY SNACKS (x2.5), SWEET SNACKS (x2.3) |
+| 0 | 18.88% | PACKED SAUSAGES (x3.2), CHEESE PACKED (x3.5), BULK SAUSAGES (x3.3), SUPPLIED BAKERY (x1.9) |
+| 3 | 13.2% | CHICKEN MEAT (x4.6), PORK (x3.4), VEGETABLES (x2.2), FRUIT AND VEGETABLES (x4.2) |
+| 6 | 12.14% | OIL, VINEGAR (x3.9), RICE / BEANS / PASTA (x4.4), VEGETABLES (x1.6), DESSERT INGREDIENTS (x4.7) |
+| 1 | 9.67% | FRUITS (x4.6), MILK / CREAM (x5.0), YOGURT  / SANA / KEFIR, DESSERT (x3.5), CEREALS (x1.9) |
+| 2 | 6.73% | PET  FOOD (x4.9), COSMETICS (x5.3), DETERGENTS / BLEACHES / FABRIC SOFTENER (x7.3), HOUSHOLD PAPER (x6.0) |
+| 4 | 4.41% | BEER (x3.1), DESSERT DRINKS (x4.5), HOUSEHOLD PRODUCTS (x6.0), SPIRIT DRINKS (x9.2) |
+
+Overlapping categories: CONCENTRATED SYRUPS (0,2,3,6), EGGS (0,1,3,6), ELECTRICAL (1,2,4,6), SEASONS + GIFTS (1,4,5), CANNED VEGETABLES (0,6), CHEESE BULK (0,4), WATER (0,5), YOGURT  / SANA / KEFIR, DESSERT (0,1), CEREALS (1,5), DIET PRODUCTS (1,5), FROZEN READY TO COOK (1,3), COSMETICS (2,4), DETERGENTS / BLEACHES / FABRIC SOFTENER (2,4), HOUSEHOLD PRODUCTS (2,4), SAUCES (3,6), VEGETABLES (3,6)
+
+### Convenience Store — Dolj (`65587f43fae8eed7bbc91c35`)
+
+| Community | Share | Top categories (lift) |
+|---|---|---|
+| 0 | 27.73% | WATER (x2.6), CARBONATED DRINKS (x2.1), YOGURT  / SANA / KEFIR, DESSERT (x2.5), BAKE OFF (x3.0) |
+| 2 | 25.99% | CHOCOLATE (x2.9), BEER (x2.2), SALTY SNACKS (x2.2), SWEET SNACKS (x2.2) |
+| 1 | 22.86% | CHEESE PACKED (x2.8), PACKED SAUSAGES (x2.6), MILK / CREAM (x2.4), SUPPLIED BAKERY (x1.9) |
+| 3 | 16.31% | VEGETABLES (x4.3), FRUITS (x2.1), CHICKEN MEAT (x4.7), FRUIT AND VEGETABLES (x4.1) |
+| 4 | 7.1% | COSMETICS (x9.0), HOUSHOLD PAPER (x7.0), HOME CARE PRODUCTS (x9.1), DETERGENTS / BLEACHES / FABRIC SOFTENER (x9.9) |
+
+Overlapping categories: CEREALS (0,1,2), FISH PRODUCTS PACKED (1,2,3), CLOTHING (2,3,4), DIET PRODUCTS (0,3), ELECTRICAL (0,4), HEALTH (0,4), ICE TEA (0,2), CANNED FRUITS (1,3), CANNED MEAT + FISH + READY MEALS (1,3), HERBS AND SPICES (1,3), OIL, VINEGAR (1,3), OTHER PACKAGED PRODUCTS  FRESH (1,3), RICE / BEANS / PASTA (1,3), SALT, BASIC FOOD INGREDIENTS, SOUPS, INSTANT PRODU (1,3), SAUCES (1,3), PREPARED MEAT (2,3)
+
+### Convenience Store — Bucharest (`65587f43fae8eed7bbc91c43`)
+
+| Community | Share | Top categories (lift) |
+|---|---|---|
+| 3 | 35.03% | TOBACCO (x1.9), CARBONATED DRINKS (x2.4), SALTY SNACKS (x2.3), WATER (x2.3) |
+| 5 | 18.74% | CHEESE PACKED (x3.3), PACKED SAUSAGES (x3.2), YOGURT  / SANA / KEFIR, DESSERT (x2.1), CANNED MEAT + FISH + READY MEALS (x3.1) |
+| 2 | 17.07% | CHICKEN MEAT (x4.4), VEGETABLES (x3.4), OIL, VINEGAR (x4.0), FRUIT AND VEGETABLES (x4.7) |
+| 1 | 15.53% | MILK / CREAM (x4.3), EGGS (x3.6), SUPPLIED BAKERY (x1.4), FRUITS (x2.3) |
+| 4 | 8.48% | COSMETICS (x7.4), DETERGENTS / BLEACHES / FABRIC SOFTENER (x8.1), HOME CARE PRODUCTS (x7.9), HOUSHOLD PAPER (x5.9) |
+| 0 | 5.16% | CHOCOLATE (x5.4), BEER (x2.3), DESSERT DRINKS (x3.8), SPIRIT DRINKS (x14.1) |
+
+Overlapping categories: CANNED FRUITS (0,1,5), DIET PRODUCTS (1,3,4), BEER (0,4), CHOCOLATE (0,3), CLOTHING (0,4), DESSERT DRINKS (0,2), FROZEN MEAT (0,2), INTERNATIONAL CUISINE (0,2), SEASONS (0,1), SUGAR CONFECTIONERY (0,3), SWEET SNACKS (0,3), OTHER PACKAGED PRODUCTS  FRESH (1,2), RICE / BEANS / PASTA (1,2), SUGAR (1,2), FROZEN READY TO COOK (2,4), PET  FOOD (4,5)
+
+### Convenience Store — Brasov (`65587f43fae8eed7bbc91cd5`)
+
+| Community | Share | Top categories (lift) |
+|---|---|---|
+| 2 | 49.18% | BEER (x1.3), SALTY SNACKS (x1.7), CARBONATED DRINKS (x1.7), CHOCOLATE (x1.8) |
+| 1 | 28.82% | PACKED SAUSAGES (x2.7), SUPPLIED BAKERY (x2.4), CHEESE PACKED (x2.8), VEGETABLES (x2.3) |
+| 0 | 7.47% | FRUITS (x4.4), OIL, VINEGAR (x11.6), VEGETABLES (x2.0), DESSERT INGREDIENTS (x7.0) |
+| 4 | 6.54% | COSMETICS (x8.2), BEER (x1.7), HOUSHOLD PAPER (x8.6), DETERGENTS / BLEACHES / FABRIC SOFTENER (x8.4) |
+| 5 | 3.52% | DESSERT DRINKS (x11.2), WINE (x7.1), PET  FOOD (x8.1), YOGURT  / SANA / KEFIR, DESSERT (x1.8) |
+| 6 | 2.53% | CEREALS (x22.1), FRUITS (x2.2), BREAKFAST PRODUCTS (x20.2), YOGURT  / SANA / KEFIR, DESSERT (x2.4) |
+| 3 | 1.94% | SPIRIT DRINKS (x4.6), FROZEN READY TO COOK (x28.3), CAKES (x20.2), FROZEN MEAT (x29.3) |
+
+Overlapping categories: DRESSING (0,3,4,6), DESSERT INGREDIENTS (0,4,6), FRUIT AND VEGETABLES (0,1,3), SUGAR (0,5,6), YOGURT  / SANA / KEFIR, DESSERT (1,5,6), CANNED VEGETABLES (0,1), CLOTHING (0,4), FRUITS (0,6), PORK (0,3), RICE / BEANS / PASTA (0,1), VEGETABLES (0,1), BREAKFAST PRODUCTS (1,6), BUTTER / MARGARINE (1,5), CHICKEN MEAT (1,3), BEER (2,4), HEALTH (2,4), SPIRIT DRINKS (2,3), ENTERTAINMENT (4,5), PET  FOOD (4,5)
+
+Reproduce with: `PYTHONPATH=src python3 scripts/run_bigclam_missions_2025.py`

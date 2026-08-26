@@ -1,0 +1,33 @@
+{
+  "source": "OpenStreetMap via Geofabrik Romania extract",
+  "source_url": "https://download.geofabrik.de/europe/romania-latest.osm.pbf",
+  "license": "ODbL (OpenStreetMap contributors)",
+  "extraction_method": "pyosmium node-tag filter, scripts/extract_osm_poi_romania.py",
+  "scope": "node-tagged POIs only. mall and event_venue are SEVERE undercounts (way-tagged in OSM far more than node-tagged) - treat as lower bounds only. anchor_institution has a milder undercount. ev_charging and tourism_accommodation have good node coverage.",
+  "total_pois": 48971,
+  "counts_by_category": {
+    "transit_stop": 14378,
+    "competitor_convenience": 8591,
+    "place_of_worship": 6330,
+    "tourism_accommodation": 5307,
+    "pharmacy": 3856,
+    "competitor_supermarket": 3496,
+    "bank": 2831,
+    "school": 1436,
+    "anchor_institution": 1237,
+    "ev_charging": 665,
+    "kindergarten": 605,
+    "mall": 207,
+    "event_venue": 18,
+    "competitor_grocery": 14
+  },
+  "rows_with_brand_tag": 6754,
+  "lat_range": [
+    43.64996,
+    48.2425628
+  ],
+  "lon_range": [
+    20.2760755,
+    29.7271907
+  ]
+}

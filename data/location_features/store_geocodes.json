@@ -1,0 +1,74 @@
+[
+  {
+    "loc_id": "65587f43fae8eed7bbc917e4",
+    "format": "Supermarket",
+    "county": "Bucharest",
+    "city": "Bucharest",
+    "raw_name": "PROFI BUCURESTI LIBERTATII - 2083",
+    "street_guess": "Strada Libertatii",
+    "lat": 44.4288791,
+    "lon": 26.145923,
+    "geocode_precision": "street",
+    "geocode_display_name": "Strada C\u00e2mpia Libert\u0103\u021bii, Titan - Balta Alb\u0103, Sector 3, Bucure\u0219ti, 032641, Rom\u00e2nia"
+  },
+  {
+    "loc_id": "65587f43fae8eed7bbc917ff",
+    "format": "Supermarket",
+    "county": "Neamt",
+    "city": "Piatra Neamt",
+    "raw_name": "PROFI PIATRA NEAMT ORION - 2115",
+    "street_guess": "Orion",
+    "lat": 46.9369312,
+    "lon": 26.3805287,
+    "geocode_precision": "street",
+    "geocode_display_name": "Orion, Cartier Tei, Piatra-Neam\u021b, Neam\u021b, Rom\u00e2nia"
+  },
+  {
+    "loc_id": "65587f43fae8eed7bbc91c04",
+    "format": "Mini Market",
+    "county": "Calarasi",
+    "city": "Calarasi",
+    "raw_name": "PROFI DOROBANTU BUCURESTI 73(CL) - 3210",
+    "street_guess": "Strada Bucuresti 73",
+    "lat": 44.195785,
+    "lon": 27.3256397,
+    "geocode_precision": "street",
+    "geocode_display_name": "73, Strada Bucure\u0219ti, Mircea Vod\u0103, C\u0103l\u0103ra\u0219i, 910000, Rom\u00e2nia"
+  },
+  {
+    "loc_id": "65587f43fae8eed7bbc91c35",
+    "format": "Convenience Store",
+    "county": "Dolj",
+    "city": "Craiova",
+    "raw_name": "PROFI CRAIOVA CALEA BUCURESTI - 3266",
+    "street_guess": "Calea Bucuresti",
+    "lat": 44.3192789,
+    "lon": 23.8044854,
+    "geocode_precision": "street",
+    "geocode_display_name": "Calea Bucure\u0219ti, Centru, Craiova, Zona Metropolitan\u0103 Craiova, Dolj, 200676, Rom\u00e2nia"
+  },
+  {
+    "loc_id": "65587f43fae8eed7bbc91c43",
+    "format": "Convenience Store",
+    "county": "Bucharest",
+    "city": "Bucharest",
+    "raw_name": "PROFI BUCURESTI LAMOTESTI 3-5 - 3279",
+    "street_guess": "Strada Lamotesti 3-5",
+    "lat": 44.3810162,
+    "lon": 26.1061168,
+    "geocode_precision": "street",
+    "geocode_display_name": "Shop&Go, 3-5, Strada Lamote\u0219ti, Berceni, Sector 4, Bucure\u0219ti, 041023, Rom\u00e2nia"
+  },
+  {
+    "loc_id": "65587f43fae8eed7bbc91cd5",
+    "format": "Convenience Store",
+    "county": "Brasov",
+    "city": "Brasov",
+    "raw_name": "PROFI BRASOV CALEA BUCURESTI 248 - 3453",
+    "street_guess": "Calea Bucuresti 248",
+    "lat": 45.6185026,
+    "lon": 25.6501135,
+    "geocode_precision": "street",
+    "geocode_display_name": "248, Calea Bucure\u0219ti, Noua-D\u00e2rste, Bra\u0219ov, Zona Metropolitan\u0103 Bra\u0219ov, Bra\u0219ov, 500299, Rom\u00e2nia"
+  }
+]

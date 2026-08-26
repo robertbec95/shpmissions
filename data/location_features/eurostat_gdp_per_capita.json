@@ -1,0 +1,77 @@
+[
+  {
+    "nuts3_code": "RO321",
+    "county": "Bucharest",
+    "gdp_per_capita_eur_by_year": {
+      "2018": 26800,
+      "2019": 30100,
+      "2020": 30000,
+      "2021": 34200,
+      "2022": 42800,
+      "2023": 48900,
+      "2024": 54800
+    },
+    "gdp_per_capita_cagr_pct": 12.66,
+    "source": "Eurostat nama_10r_3gdp, unit=EUR_HAB"
+  },
+  {
+    "nuts3_code": "RO122",
+    "county": "Brasov",
+    "gdp_per_capita_eur_by_year": {
+      "2018": 12600,
+      "2019": 13500,
+      "2020": 13300,
+      "2021": 14500,
+      "2022": 16700,
+      "2023": 19700,
+      "2024": 21400
+    },
+    "gdp_per_capita_cagr_pct": 9.23,
+    "source": "Eurostat nama_10r_3gdp, unit=EUR_HAB"
+  },
+  {
+    "nuts3_code": "RO214",
+    "county": "Neamt",
+    "gdp_per_capita_eur_by_year": {
+      "2018": 6500,
+      "2019": 7000,
+      "2020": 7200,
+      "2021": 7700,
+      "2022": 8800,
+      "2023": 10400,
+      "2024": 11500
+    },
+    "gdp_per_capita_cagr_pct": 9.98,
+    "source": "Eurostat nama_10r_3gdp, unit=EUR_HAB"
+  },
+  {
+    "nuts3_code": "RO312",
+    "county": "Calarasi",
+    "gdp_per_capita_eur_by_year": {
+      "2018": 5600,
+      "2019": 6100,
+      "2020": 5600,
+      "2021": 6800,
+      "2022": 7500,
+      "2023": 8400,
+      "2024": 9100
+    },
+    "gdp_per_capita_cagr_pct": 8.43,
+    "source": "Eurostat nama_10r_3gdp, unit=EUR_HAB"
+  },
+  {
+    "nuts3_code": "RO411",
+    "county": "Dolj",
+    "gdp_per_capita_eur_by_year": {
+      "2018": 8100,
+      "2019": 9100,
+      "2020": 9000,
+      "2021": 9800,
+      "2022": 11400,
+      "2023": 13000,
+      "2024": 14300
+    },
+    "gdp_per_capita_cagr_pct": 9.94,
+    "source": "Eurostat nama_10r_3gdp, unit=EUR_HAB"
+  }
+]

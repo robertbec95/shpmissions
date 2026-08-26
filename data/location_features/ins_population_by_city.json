@@ -1,0 +1,67 @@
+[
+  {
+    "city": "Bucuresti Municipality",
+    "county_id": 3104,
+    "loc_id": 3048,
+    "store_counties": [
+      "Bucharest"
+    ],
+    "year": 2024,
+    "source": "INS TEMPO-Online POP107D",
+    "population_total": 2143578,
+    "population_male": 1002415,
+    "population_female": 1141163
+  },
+  {
+    "city": "Piatra-Neamt Municipality",
+    "county_id": 3090,
+    "loc_id": 2051,
+    "store_counties": [
+      "Neamt"
+    ],
+    "year": 2024,
+    "source": "INS TEMPO-Online POP107D",
+    "population_total": 106814,
+    "population_male": 49530,
+    "population_female": 57284
+  },
+  {
+    "city": "Calarasi Municipality",
+    "county_id": 3105,
+    "loc_id": 1544,
+    "store_counties": [
+      "Calarasi"
+    ],
+    "year": 2024,
+    "source": "INS TEMPO-Online POP107D",
+    "population_total": 70861,
+    "population_male": 33820,
+    "population_female": 37041
+  },
+  {
+    "city": "Craiova Municipality",
+    "county_id": 3079,
+    "loc_id": 1187,
+    "store_counties": [
+      "Dolj"
+    ],
+    "year": 2024,
+    "source": "INS TEMPO-Online POP107D",
+    "population_total": 285722,
+    "population_male": 133165,
+    "population_female": 152557
+  },
+  {
+    "city": "Brasov Municipality",
+    "county_id": 3071,
+    "loc_id": 674,
+    "store_counties": [
+      "Brasov"
+    ],
+    "year": 2024,
+    "source": "INS TEMPO-Online POP107D",
+    "population_total": 283848,
+    "population_male": 132513,
+    "population_female": 151335
+  }
+]

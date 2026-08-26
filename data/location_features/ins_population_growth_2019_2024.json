@@ -1,0 +1,32 @@
+{
+  "Brasov": {
+    "pop_2019": 289763,
+    "pop_2024": 283848,
+    "population_cagr_pct": -0.412,
+    "source": "INS TEMPO-Online POP107D, years 2019 and 2024"
+  },
+  "Calarasi": {
+    "pop_2019": 75996,
+    "pop_2024": 70861,
+    "population_cagr_pct": -1.389,
+    "source": "INS TEMPO-Online POP107D, years 2019 and 2024"
+  },
+  "Dolj (Craiova)": {
+    "pop_2019": 301848,
+    "pop_2024": 285722,
+    "population_cagr_pct": -1.092,
+    "source": "INS TEMPO-Online POP107D, years 2019 and 2024"
+  },
+  "Neamt (Piatra-Neamt)": {
+    "pop_2019": 112999,
+    "pop_2024": 106814,
+    "population_cagr_pct": -1.119,
+    "source": "INS TEMPO-Online POP107D, years 2019 and 2024"
+  },
+  "Bucharest": {
+    "pop_2019": 2135330,
+    "pop_2024": 2143578,
+    "population_cagr_pct": 0.077,
+    "source": "INS TEMPO-Online POP107D, years 2019 and 2024"
+  }
+}

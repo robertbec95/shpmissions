@@ -1,0 +1,26 @@
+{
+  "Brasov": {
+    "passenger_cars_natural_persons": 221901,
+    "source": "INS TEMPO-Online TRN103B, county-level (no locality-level option exists), year 2025"
+  },
+  "Neamt": {
+    "passenger_cars_natural_persons": 153755,
+    "source": "INS TEMPO-Online TRN103B"
+  },
+  "Calarasi": {
+    "passenger_cars_natural_persons": 84330,
+    "source": "INS TEMPO-Online TRN103B"
+  },
+  "Teleorman": {
+    "passenger_cars_natural_persons": 103559,
+    "source": "INS TEMPO-Online TRN103B"
+  },
+  "Bucharest": {
+    "passenger_cars_natural_persons": 832323,
+    "source": "INS TEMPO-Online TRN103B"
+  },
+  "Dolj": {
+    "passenger_cars_natural_persons": 251440,
+    "source": "INS TEMPO-Online TRN103B"
+  }
+}

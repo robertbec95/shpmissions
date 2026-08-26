@@ -1,0 +1,65 @@
+{
+  "65587f43fae8eed7bbc917e4": {
+    "store": "PROFI BUCURESTI LIBERTATII - 2083",
+    "city": "Bucharest",
+    "banner_counts": {
+      "Independent/Other": 24,
+      "Mega Image": 5,
+      "Unnamed": 3,
+      "Carrefour": 2,
+      "Froo": 1,
+      "La Doi Pasi": 1
+    }
+  },
+  "65587f43fae8eed7bbc917ff": {
+    "store": "PROFI PIATRA NEAMT ORION - 2115",
+    "city": "Piatra Neamt",
+    "banner_counts": {
+      "Independent/Other": 2
+    }
+  },
+  "65587f43fae8eed7bbc91c04": {
+    "store": "PROFI DOROBANTU BUCURESTI 73(CL) - 3210",
+    "city": "Calarasi",
+    "banner_counts": {
+      "Independent/Other": 12,
+      "Penny": 1,
+      "La Doi Pasi": 1,
+      "Carrefour": 1
+    }
+  },
+  "65587f43fae8eed7bbc91c35": {
+    "store": "PROFI CRAIOVA CALEA BUCURESTI - 3266",
+    "city": "Craiova",
+    "banner_counts": {
+      "Independent/Other": 16,
+      "Unnamed": 8,
+      "Carrefour": 2,
+      "Auchan": 1,
+      "La Doi Pasi": 1
+    }
+  },
+  "65587f43fae8eed7bbc91c43": {
+    "store": "PROFI BUCURESTI LAMOTESTI 3-5 - 3279",
+    "city": "Bucharest",
+    "banner_counts": {
+      "Independent/Other": 30,
+      "Unnamed": 6,
+      "La Doi Pasi": 4,
+      "Mega Image": 3,
+      "Auchan": 3,
+      "Carrefour": 2,
+      "Annabella": 1,
+      "Froo": 1
+    }
+  },
+  "65587f43fae8eed7bbc91cd5": {
+    "store": "PROFI BRASOV CALEA BUCURESTI 248 - 3453",
+    "city": "Brasov",
+    "banner_counts": {
+      "Unnamed": 2,
+      "Independent/Other": 2,
+      "Penny": 1
+    }
+  }
+}
