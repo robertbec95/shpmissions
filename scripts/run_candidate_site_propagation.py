@@ -41,6 +41,7 @@ from sklearn.preprocessing import StandardScaler
 
 from shopping_missions import location_similarity as loc_sim
 from shopping_missions.catchment import catchment_profile
+from shopping_missions.config import CATCHMENT_RADIUS_KM
 
 V4_FILE = "data/location_features/store_feature_table_v3.json"
 RAW_POI_FILE = "data/location_features/store_poi_counts.json"
@@ -105,7 +106,7 @@ def main():
 
     candidate_rows = {}
     for name, c in CANDIDATES.items():
-        profile = catchment_profile(c["lat"], c["lon"], radius_km=1.0, raster_path=POP_RASTER, poi_df=poi_df)
+        profile = catchment_profile(c["lat"], c["lon"], radius_km=CATCHMENT_RADIUS_KM, raster_path=POP_RASTER, poi_df=poi_df)
         raw_counts = [[profile.attributes[POI_CATEGORY_MAP[cat]] for cat in keep_order]]
         pc1, pc2 = pca.transform(scaler.transform(raw_counts))[0]
 

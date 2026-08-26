@@ -30,6 +30,7 @@ import numpy as np
 import pandas as pd
 
 from shopping_missions.catchment import catchment_profile
+from shopping_missions.config import CATCHMENT_RADIUS_KM
 
 V4_FILE = "data/location_features/store_feature_table_v3.json"
 GEOCODES_FILE = "data/location_features/store_geocodes.json"
@@ -55,7 +56,7 @@ def main():
     v5 = {}
     for loc_id, row in v4.items():
         geo = geocodes[loc_id]
-        profile = catchment_profile(geo["lat"], geo["lon"], radius_km=1.0, raster_path=POP_RASTER, poi_df=poi_df)
+        profile = catchment_profile(geo["lat"], geo["lon"], radius_km=CATCHMENT_RADIUS_KM, raster_path=POP_RASTER, poi_df=poi_df)
 
         unemployment_key = city_label_map[geo["city"]]
         gdp_row = gdp[geo["county"]]

@@ -10,6 +10,20 @@ LOCATIONS_FILE = DATA_DIR / "locations-export (3).csv"
 OUTPUTS_DIR = PROJECT_ROOT / "outputs"
 SCENARIOS_DIR = OUTPUTS_DIR / "scenarios"
 
+# Location-similarity / catchment pipeline (see catchment.py,
+# location_similarity.py). LOCATION_FEATURES_DIR is where every pulled
+# national/per-store data file lives (INS, Eurostat, WorldPop, OSM,
+# census2021, and the store_feature_table_v*.json versions).
+LOCATION_FEATURES_DIR = DATA_DIR / "location_features"
+
+# The catchment radius used throughout this project's real-data pulls and
+# validations (v5-v8, the candidate-site scoring scripts) - was duplicated
+# as a literal `radius_km=1.0` across ~4 scripts before being centralized
+# here. Not a default baked into `catchment.catchment_profile` itself
+# (that function keeps radius_km required/explicit by design) - callers
+# import this constant instead of repeating the literal.
+CATCHMENT_RADIUS_KM = 1.0
+
 # Catalog IDs excluded from basket-affinity clustering - transactional
 # artifacts, not shopper-chosen product categories:
 #   500 SERVICES            - bottle-deposit returns, bag fees, etc.

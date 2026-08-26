@@ -19,6 +19,7 @@ import json
 import pandas as pd
 
 from shopping_missions.catchment import catchment_profile
+from shopping_missions.config import CATCHMENT_RADIUS_KM
 
 STORES_FILE = "data/location_features/store_poi_counts.json"
 POI_CSV = "data/location_features/osm/romania_poi_nodes.csv"
@@ -47,7 +48,7 @@ def main():
     poi_df = pd.read_csv(POI_CSV)
 
     for store in stores:
-        profile = catchment_profile(store["lat"], store["lon"], radius_km=1.0, raster_path=POP_RASTER, poi_df=poi_df)
+        profile = catchment_profile(store["lat"], store["lon"], radius_km=CATCHMENT_RADIUS_KM, raster_path=POP_RASTER, poi_df=poi_df)
         print(f"\n=== {store['raw_name']} ({store['city']}) ===")
         print(f"  New catchment population (1km radius): {profile.attributes['catchment_population']:,.0f}")
         print(f"  Old whole-city population (INS):        {OLD_CITY_POPULATION.get(store['city'], 0):,}")

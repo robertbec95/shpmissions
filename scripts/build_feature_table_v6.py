@@ -31,6 +31,7 @@ import json
 import pandas as pd
 
 from shopping_missions.catchment import catchment_profile
+from shopping_missions.config import CATCHMENT_RADIUS_KM
 
 V5_FILE = "data/location_features/store_feature_table_v5.json"
 GEOCODES_FILE = "data/location_features/store_geocodes.json"
@@ -49,7 +50,7 @@ def main():
     v6 = {}
     for loc_id, row in v5.items():
         geo = geocodes[loc_id]
-        profile = catchment_profile(geo["lat"], geo["lon"], radius_km=1.0, raster_path=POP_RASTER, poi_df=poi_df)
+        profile = catchment_profile(geo["lat"], geo["lon"], radius_km=CATCHMENT_RADIUS_KM, raster_path=POP_RASTER, poi_df=poi_df)
 
         new_cols = {k: v for k, v in profile.attributes.items() if k.startswith("poi_") or k == "nearest_competitor_km"}
         for col in DROP_ZERO_VARIANCE:
